@@ -8,6 +8,46 @@
  - [license-checker](https://www.npmjs.com/package/license-checker)
  - [legally](https://www.npmjs.com/package/legally)
  - [npm-license-crawler](https://www.npmjs.com/package/npm-license-crawler)
+ - [checker-rseidelsohn](https://www.npmjs.com/package/license-checker-rseidelsohn)
+
+```bash
+npm i -g legally license-checker npm-license-crawler
+```
+
+| Lib                 | Popularity | Size  | Dependensies | Github Stars |   Depends on    |
+| ------------------- | :--------: | :---: | :----------: | :----------: | :-------------: |
+| legally             |   2,699    |  81   |      0       |     353      |        -        |
+| license-checker     |  201,822   |  144  |      10      |     1.2k     |        -        |
+| npm-license-crawler |   7,783    |  119  |      9       |     177      | license-checker |
+| checker-rseidelsohn |   1,647    |  111  |      10      |      18      | license-checker |
+
+Worth to mention: [licensee](https://www.npmjs.com/package/licensee)
+
+### [Legally](https://www.npmjs.com/package/legally)
+Информативный тип библиотеки
+
+```bash
+# basic commands
+legally # выведет три таблицы [пакеты, количество лецензий, общий отчет]
+legally express dotenv # выводит лецензии удаленных пакетов
+
+# показывать только одну или несколько таблиц
+legally [-p] [-l] [-r]
+legally show [packages] [licenses] [reports]
+
+legally --type mit # выведут таблицы с MIT лецензиями
+
+# выведет таблицы  где "cc0", "cc-by 3.0", и т.д. значения а все остальные будут -
+legally --filter cc
+
+legally --type mit --filter bsd # комплексные запросы
+
+# можно играться со стилями таблиц
+legally --border [thin] [bold] [double] [ascii] 
+
+# можно вывести таблицы в файл
+legally --plain > license-report.txt
+```
 
 ### Комманда для установки пакета(глобально):
 ```bash
