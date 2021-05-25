@@ -2304,7 +2304,8 @@
   },
   "licence-test@1.0.0": {
     "licenses": "ISC",
-    "path": "/home/user/Desktop/workflow/licence-test"
+    "path": "/home/user/Desktop/workflow/licence-test",
+    "licenseFile": "/home/user/Desktop/workflow/licence-test/README.md"
   },
   "lines-and-columns@1.1.6": {
     "licenses": "MIT",
@@ -3188,8 +3189,8 @@
   "semver@5.7.1": {
     "licenses": "ISC",
     "repository": "https://github.com/npm/node-semver",
-    "path": "/home/user/Desktop/workflow/licence-test/node_modules/sane/node_modules/semver",
-    "licenseFile": "/home/user/Desktop/workflow/licence-test/node_modules/sane/node_modules/semver/LICENSE"
+    "path": "/home/user/Desktop/workflow/licence-test/node_modules/jsonwebtoken/node_modules/semver",
+    "licenseFile": "/home/user/Desktop/workflow/licence-test/node_modules/jsonwebtoken/node_modules/semver/LICENSE"
   },
   "semver@6.3.0": {
     "licenses": "ISC",
